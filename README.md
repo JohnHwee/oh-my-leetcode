@@ -49,3 +49,10 @@ Here, we will use the integers 0, 1, and 2 to represent the color red, white, an
 Note:
 You are not suppose to use the library's sort function for this problem.
 
+**第 0007 题：**LRU Cache
+
+Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and set.
+
+`get(key)` - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
+
+`set(key, value)` - Set or insert the value if the key is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item.
